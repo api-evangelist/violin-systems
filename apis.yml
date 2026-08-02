@@ -1,4 +1,16 @@
 aid: violin-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/violin-systems.png
 name: Violin Systems
 description: 'Violin Systems is a company surfaced as a portfolio company of sapphire-ventures and added
   to the API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead
@@ -11,8 +23,14 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-status: defunct
+x-status-note: 'Enrichment probe 2026-07-21 — www.violinsystems.com 301-redirects to www.itamg.com
+  (IT Asset Management Group, an unrelated IT asset-disposition company that now holds the domain).
+  All /.well-known/* paths follow that redirect; docs./developer./api.violinsystems.com no longer resolve
+  (NXDOMAIN). Violin Systems (formerly Violin Memory) is defunct; no live API surface or developer resources
+  exist to enrich. No artifacts created (no fabrication).'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Infrastructure
@@ -25,3 +43,8 @@ maintainers:
 common:
 - type: Website
   url: https://www.violinsystems.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
