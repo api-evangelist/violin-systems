@@ -18,11 +18,13 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: https://www.violinsystems.com/
+    status: 301
+    note: declared website redirects to https://www.itamg.com/ — a different registrable domain (violinsystems.com
+      -> itamg.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://www.violinsystems.com/', status: 301, note: 'declared website redirects to https://www.itamg.com/ — a different registrable domain (violinsystems.com -> itamg.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/violin-systems.png
 name: Violin Systems
 description: 'Violin Systems is a company surfaced as a portfolio company of sapphire-ventures and added
@@ -37,16 +39,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 x-status: defunct
-x-status-note: 'Enrichment probe 2026-07-21 — www.violinsystems.com 301-redirects to www.itamg.com
-  (IT Asset Management Group, an unrelated IT asset-disposition company that now holds the domain).
-  All /.well-known/* paths follow that redirect; docs./developer./api.violinsystems.com no longer resolve
-  (NXDOMAIN). Violin Systems (formerly Violin Memory) is defunct; no live API surface or developer resources
-  exist to enrich. No artifacts created (no fabrication).'
+x-status-note: Enrichment probe 2026-07-21 — www.violinsystems.com 301-redirects to www.itamg.com (IT
+  Asset Management Group, an unrelated IT asset-disposition company that now holds the domain). All /.well-known/*
+  paths follow that redirect; docs./developer./api.violinsystems.com no longer resolve (NXDOMAIN). Violin
+  Systems (formerly Violin Memory) is defunct; no live API surface or developer resources exist to enrich.
+  No artifacts created (no fabrication).
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
 - Infrastructure
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
